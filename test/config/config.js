@@ -25,6 +25,19 @@ module.exports = {
     }
   },
 
+  //make maxIdleTime small so that tests exit promptly
+  mssql: {
+    database: process.env.SEQ_MSSQL_DB   || process.env.SEQ_DB   || 'sequelize_test',
+    username: process.env.SEQ_MSSQL_USER || process.env.SEQ_USER || "root",
+    password: process.env.SEQ_MSSQL_PW   || process.env.SEQ_PW   || null,
+    host:     process.env.SEQ_MSSQL_HOST || process.env.SEQ_HOST || '127.0.0.1',
+    port:     process.env.SEQ_MSSQL_PORT || process.env.SEQ_PORT || 1433,
+    pool:     {
+      maxConnections: process.env.SEQ_MSSQL_POOL_MAX  || process.env.SEQ_POOL_MAX  || 5,
+      maxIdleTime:    process.env.SEQ_MSSQL_POOL_IDLE || process.env.SEQ_POOL_IDLE || 3000
+    }
+  },
+
   sqlite: {
   },
 
