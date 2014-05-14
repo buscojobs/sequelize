@@ -52,7 +52,8 @@
     "sql": "~0.35.0",
     "circular-json": "~0.1.5",
     "sequelize-bluebird": "git://github.com/sequelize/bluebird.git",
-    "node-uuid": "~1.4.1"
+    "node-uuid": "~1.4.1",
+    "tedious": "~0.2.3"
   },
   "devDependencies": {
     "sqlite3": "~2.1.12",
@@ -71,10 +72,13 @@
     "async": "~0.2.10",
     "coffee-script": "~1.7.1",
     "markdox": "0.1.4",
-    "sinon-chai": "~2.5.0"
+    "sinon-chai": "~2.5.0",
+    "tedious": "~0.2.3"
+
   },
   "keywords": [
     "mysql",
+    "mssql",
     "sqlite",
     "postgresql",
     "postgres",
