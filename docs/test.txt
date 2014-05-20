@@ -1,0 +1,13 @@
+- Para ejecutar los test para SQL Server :
+
+make test DIALECT=mssql
+
+********************************************************************
+
+Para ejecutar algun archivo de test de mocha en particular :
+
+make test DIALECT=mssql TESTS=<ruta del archivo>
+
+En Windows cambiar "\" por "/"
+
+Agregar las configuraciones para SQL Server en test/config

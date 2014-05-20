@@ -1,0 +1,576 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"err",
+				"error"
+			],
+			[
+				"re",
+				"reject"
+			],
+			[
+				"ma",
+				"mainQueryItems"
+			],
+			[
+				"subQ",
+				"subQuery"
+			],
+			[
+				"main",
+				"mainQueryItems"
+			],
+			[
+				"sub",
+				"subquery"
+			],
+			[
+				"al",
+				"allAttributes"
+			],
+			[
+				"has",
+				"hash"
+			],
+			[
+				"mode",
+				"modelAttributeMap"
+			],
+			[
+				"tes",
+				"testBulkCreate"
+			],
+			[
+				"valu",
+				"valueHash"
+			],
+			[
+				"to",
+				"toString"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"tim",
+				"timeZone"
+			],
+			[
+				"modelA",
+				"modelAttributeMap"
+			],
+			[
+				"ke",
+				"keys"
+			],
+			[
+				"id",
+				"identifier"
+			],
+			[
+				"ms",
+				"mssqlconfig"
+			],
+			[
+				"pos",
+				"postulante_id"
+			],
+			[
+				"fo",
+				"foreignKey"
+			],
+			[
+				"ofert",
+				"oferta_id"
+			],
+			[
+				"e",
+				"empresas"
+			],
+			[
+				"de",
+				"deferred"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"b",
+				"bulkCreate"
+			],
+			[
+				"guar",
+				"guardarPostulantes"
+			],
+			[
+				"gu",
+				"guardarUsuarios"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "lib/dialects/abstract/query-generator.js",
+			"settings":
+			{
+				"buffer_size": 48885,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/dialects/mssql/query-generator.js",
+			"settings":
+			{
+				"buffer_size": 32435,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/bjdev/Documents/Node.js/sequelize-test/models/usuario.js",
+			"settings":
+			{
+				"buffer_size": 802,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/bjdev/Documents/Node.js/sequelize-test/models/empresa.js",
+			"settings":
+			{
+				"buffer_size": 549,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/bjdev/Documents/Node.js/sequelize-test/has-one.test.js",
+			"settings":
+			{
+				"buffer_size": 939,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/dialects/mssql/query.js",
+			"settings":
+			{
+				"buffer_size": 1557,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/bjdev/Documents/Node.js/sequelize/lib/dialects/postgres/query.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/lib/dialects/mysql/query.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/lib/dialects/abstract/query.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/lib/dialects/mssql/query.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/lib/dialects/mssql/connector-manager.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/lib/dialects/mssql/index.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize-test/associations1.test.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize-test/doc/resultados.txt",
+		"/C/Users/bjdev/Documents/Node.js/sequelize-test/doc/create.test.txt",
+		"/C/Users/bjdev/Documents/Node.js/sequelize-test/doc/find.test.txt",
+		"/C/Users/bjdev/Documents/Node.js/sequelize-test/find.test.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/lib/query-interface.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/lib/sql-string.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize-test/create.test.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/lib/dialects/postgres/index.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/lib/sequelize.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/lib/dialects/abstract/query-generator.js",
+		"/C/Users/bjdev/Documents/Node.js/test/buscojobs-data/tasks/sqlserver-importer/test.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/lib/dialects/sqlite/query-interface.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/lib/dialects/sqlite/query-generator.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/lib/dialects/postgres/query-generator.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/lib/dialects/mssql/query-generator.js",
+		"/C/Users/bjdev/Documents/Node.js/test/buscojobs-data/tasks/sqlserver-importer/importadores/importador-postulantes.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/lib/instance.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/lib/data-types.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize-test/asd.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/docs/test.txt",
+		"/C/Users/bjdev/Documents/Node.js/test/buscojobs-data/tasks/sqlserver-importer/bjuy-importer.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/lib/dialects/postgres/hstore.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize-test/models/index.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize-test/index.js",
+		"/C/Users/bjdev/Documents/Node.js/test/buscojobs-data/api.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/lib/promise.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize-test/config.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/lib/utils.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/lib/emitters/custom-event-emitter.js",
+		"/C/Users/bjdev/Documents/Node.js/test/buscojobs-data/config.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/lib/transaction-manager.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/package.json",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/test/config/config.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/test/query-generator.test.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/test/support.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/test/mysql/query-generator.test.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/test/associations/has-one.test.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/test/configuration.test.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/Makefile",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/.travis.yml",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/test/promise.test.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/lib/associations/has-one.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/docs/markdox.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/test/mysql/associations.test.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/test/sequelize.test.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/test/mysql/connector-manager.test.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/README.md",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/test/query-chainer.test.js",
+		"/C/Users/bjdev/Documents/Node.js/sequelize/test/assets/project.js",
+		"/C/Users/bjdev/Documents/Node.js/test/buscojobs-data/models/postulacion.js",
+		"/C/Users/bjdev/Documents/Node.js/test/buscojobs-data/models/postulante.js",
+		"/C/Users/bjdev/Documents/Node.js/test/buscojobs-data/models/oferta.js",
+		"/C/Users/bjdev/Documents/Node.js/test/buscojobs-data/models/usuario.js",
+		"/C/Users/bjdev/Documents/Node.js/test/buscojobs-data/models/empresa.js",
+		"/C/Users/bjdev/Documents/Node.js/test/buscojobs-data/tasks/sqlserver-importer/importadores/importador-ofertas.js",
+		"/C/Users/bjdev/Documents/Node.js/test/buscojobs-data/tasks/sqlserver-importer/importadores/importador-empresas.js",
+		"/C/Users/bjdev/Documents/Node.js/test/test.sublime-project",
+		"/C/Users/bjdev/Documents/Node.js/test/buscojobs-data/package.json",
+		"/C/Users/bjdev/Documents/Node.js/test/buscojobs-data/tasks/sqlserver-importer/config.js",
+		"/C/Users/bjdev/Documents/Node.js/test/test.sublime-workspace"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"handleSelectQuery",
+			"handleS",
+			"handle",
+			"handleSelectQuery",
+			"formatResults",
+			"WHERE",
+			"addLimitAndOffset",
+			"LIMIT",
+			"selecQue",
+			"addLimitAndOffset",
+			"limit",
+			"mssq",
+			"dialect",
+			"_dialect",
+			"dialect",
+			"_dialect",
+			"_dialec",
+			"_dialect",
+			"IDENTITY",
+			"IDENTITY_INSERT",
+			"auto in",
+			"auto",
+			"escape",
+			"dateToString",
+			"SqlString",
+			"escape",
+			"set",
+			"console.l",
+			"console",
+			"initValues",
+			"_timestampAttributes",
+			"createdA",
+			"createdAt",
+			"datatypes",
+			"query-interface",
+			"insert(",
+			"insertQuery(",
+			"insertQuery",
+			"insertQ",
+			"insertQuery",
+			"quoteIde",
+			"quoteTa",
+			"quoteIDe",
+			"quoteIdentifier",
+			"quoteTable",
+			"INSERT",
+			"authenticate",
+			"injectGetter",
+			"before",
+			"chai",
+			"sequelize"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "lib/dialects/abstract/query-generator.js",
+					"settings":
+					{
+						"buffer_size": 48885,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20185,
+								20192
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 12272.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lib/dialects/mssql/query-generator.js",
+					"settings":
+					{
+						"buffer_size": 32435,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8099,
+								8114
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/bjdev/Documents/Node.js/sequelize-test/models/usuario.js",
+					"settings":
+					{
+						"buffer_size": 802,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								702,
+								702
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/bjdev/Documents/Node.js/sequelize-test/models/empresa.js",
+					"settings":
+					{
+						"buffer_size": 549,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								275,
+								275
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/bjdev/Documents/Node.js/sequelize-test/has-one.test.js",
+					"settings":
+					{
+						"buffer_size": 939,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								902,
+								902
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "lib/dialects/mssql/query.js",
+					"settings":
+					{
+						"buffer_size": 1557,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								699,
+								699
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true
+}
