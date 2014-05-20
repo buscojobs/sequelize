@@ -1,6 +1,6 @@
 REPORTER ?= spec
 TESTS = $(shell find ./test/* -name "*.test.js")
-DIALECT ?= mysql
+DIALECT ?= mssql
 
 # test commands
 
@@ -30,6 +30,8 @@ sqlite:
 	@DIALECT=sqlite make test
 mysql:
 	@DIALECT=mysql make test
+mssql:
+	@DIALECT=mssql make test
 postgres:
 	@DIALECT=postgres make test
 postgres-native:
