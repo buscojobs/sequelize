@@ -447,10 +447,10 @@ if (dialect === 'mssql') {
       deleteQuery: [
         {
           arguments: ['myTable', {name: 'foo'}],
-          expectation: "DELETE FROM [myTable] WHERE [name]='foo' LIMIT 1"
+          expectation: "DELETE TOP 1 FROM [myTable] WHERE [name]='foo'"
         }, {
           arguments: ['myTable', 1],
-          expectation: "DELETE FROM [myTable] WHERE [id]=1 LIMIT 1"
+          expectation: "DELETE TOP 1 FROM [myTable] WHERE [id]=1"
         },{
           arguments: ['myTable', undefined, {truncate: true}],
           expectation: "TRUNCATE [myTable]"
@@ -459,10 +459,10 @@ if (dialect === 'mssql') {
           expectation: "TRUNCATE [myTable]"
         }, {
           arguments: ['myTable', 1, {limit: 10}],
-          expectation: "DELETE FROM [myTable] WHERE [id]=1 LIMIT 10"
+          expectation: "DELETE TOP 10 FROM [myTable] WHERE [id]=1"
         }, {
           arguments: ['myTable', {name: "foo';DROP TABLE myTable;"}, {limit: 10}],
-          expectation: "DELETE FROM [myTable] WHERE [name]='foo\\';DROP TABLE myTable;' LIMIT 10"
+          expectation: "DELETE TOP 10 FROM [myTable] WHERE [name]='foo\\';DROP TABLE myTable;'"
         }, {
           arguments: ['myTable', {name: 'foo'}, {limit: null}],
           expectation: "DELETE FROM [myTable] WHERE [name]='foo'"
