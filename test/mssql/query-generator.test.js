@@ -199,7 +199,7 @@ if (dialect === 'mssql') {
               ]
             }
           }],
-          expectation: "SELECT * FROM [myTable] ORDER BY f1([myTable].[id]) DESC, f2(12, 'lalala', '2011-03-27 10:01:55') ASC;",
+          expectation: "SELECT * FROM [myTable] ORDER BY f1([myTable].[id]) DESC, f2(12, 'lalala', '2011-03-27 10:01:55.000') ASC;",
           context: QueryGenerator,
           needsSequelize: true
         }, {
@@ -261,7 +261,7 @@ if (dialect === 'mssql') {
           needsSequelize: true
         }, {
           arguments: ['myTable', {limit: 10}],
-          expectation: "SELECT * FROM [myTable] LIMIT 10;",
+          expectation: "SELECT TOP 10 * FROM [myTable];",
           context: QueryGenerator
         }, {
           arguments: ['myTable', {limit: 10, offset: 2}],
