@@ -265,12 +265,16 @@ if (dialect === 'mssql') {
           context: QueryGenerator
         }, {
           arguments: ['myTable', {limit: 10, offset: 2}],
-          expectation: "SELECT * FROM [myTable] LIMIT 2, 10;",
+          expectation: "SELECT * FROM [myTable] ORDER BY [id] OFFSET 2 ROWS FETCH NEXT 10 ROWS ONLY;",
+          context: QueryGenerator
+        }, {
+          arguments: ['myTable', {limit: 10, offset: 2, order: [['createdAt', 'DESC']]}],
+          expectation: "SELECT * FROM [myTable] ORDER BY [createdAt] DESC OFFSET 2 ROWS FETCH NEXT 10 ROWS ONLY;",
           context: QueryGenerator
         }, {
           title: 'uses default limit if only offset is specified',
           arguments: ['myTable', {offset: 2}],
-          expectation: "SELECT * FROM [myTable] LIMIT 2, 18440000000000000000;",
+          expectation: "SELECT * FROM [myTable] ORDER BY [id] OFFSET 2 ROWS;",
           context: QueryGenerator
         }, {
           title: 'multiple where arguments',
