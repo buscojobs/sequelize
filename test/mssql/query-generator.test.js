@@ -480,12 +480,12 @@ if (dialect === 'mssql') {
               'isAdmin'
             ]
           ],
-          expectation: "CREATE INDEX user_username_is_admin ON User ([username](10) ASC, [isAdmin])"
+          expectation: "CREATE INDEX user_username_is_admin ON User ([username] ASC, [isAdmin])"
         }, {
           arguments: [
             'User', ['username', 'isAdmin'], { parser: 'foo', indicesType: 'FULLTEXT', indexName: 'bar'}
           ],
-          expectation: "CREATE FULLTEXT INDEX bar ON User ([username], [isAdmin]) WITH PARSER foo"
+          expectation: "CREATE FULLTEXT INDEX ON User ([username], [isAdmin]) KEY INDEX bar"
         }
       ],
 
@@ -524,20 +524,20 @@ if (dialect === 'mssql') {
         },
         {
           arguments: [{ beaver: [false, true] }],
-          expectation: "[beaver] IN (false,true)"
+          expectation: "[beaver] IN (0,1)"
         },
         {
           arguments: [{birthday: new Date(Date.UTC(2011, 6, 1, 10, 1, 55))}],
-          expectation: "[birthday]='2011-07-01 10:01:55'"
+          expectation: "[birthday]='2011-07-01 10:01:55.000'"
         },
         {
           arguments: [{ birthday: new Date(Date.UTC(2011, 6, 1, 10, 1, 55)),
                         otherday: new Date(Date.UTC(2013, 6, 2, 10, 1, 22)) }],
-          expectation: "[birthday]='2011-07-01 10:01:55' AND [otherday]='2013-07-02 10:01:22'"
+          expectation: "[birthday]='2011-07-01 10:01:55.000' AND [otherday]='2013-07-02 10:01:22.000'"
         },
         {
           arguments: [{ birthday: [new Date(Date.UTC(2011, 6, 1, 10, 1, 55)), new Date(Date.UTC(2013, 6, 2, 10, 1, 22))] }],
-          expectation: "[birthday] IN ('2011-07-01 10:01:55','2013-07-02 10:01:22')"
+          expectation: "[birthday] IN ('2011-07-01 10:01:55.000','2013-07-02 10:01:22.000')"
         }
       ]
     }
